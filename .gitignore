@@ -4,6 +4,7 @@
 # 忽略 CMake 推荐的构建目录
 build/
 Build/
+.clangd/
 cmake-build-debug/
 cmake-build-release/
 
@@ -22,6 +23,7 @@ Makefile
 install_manifest.txt
 CTestTestfile.cmake
 *.cmake
+compile_commands.json
 
 # ==========================================
 # 3. C++ 编译中间产物 & 最终产物

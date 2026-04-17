@@ -22,7 +22,7 @@ inline constexpr int gc_num = 0;
 // inline对内部全局变量定义(C++17),
 // 语法正确但冗余, 等同于static int
 // 不会报重定义错误, 因为每一个包含此头文件的单元都会拷贝一份同名变量, 浪费资源
-inline static int s_num = 0;
+// inline static int s_num = 0;
 
 
 // 命名空间, 避免多文件命名冲突, 模块化隔离

@@ -1,0 +1,9 @@
+# Phase 04: 通用 AI 推理部署主线
+add_subdirectory(day01_ONNX_Model_Inspect)
+add_subdirectory(day02_ONNXRuntime_CPP)
+add_subdirectory(day03_OpenCV_Preprocess)
+add_subdirectory(day04_YOLO_Postprocess_NMS)
+add_subdirectory(day05_TensorRT_Basic)
+add_subdirectory(day06_TensorRT_INT8)
+add_subdirectory(day07_RKNN_Runtime)
+add_subdirectory(day08_MultiModel_Pipeline)

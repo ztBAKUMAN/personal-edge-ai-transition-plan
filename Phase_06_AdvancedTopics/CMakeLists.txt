@@ -1,0 +1,10 @@
+# Phase 06: 进阶主题 — 交叉编译/云原生产品化部署
+add_subdirectory(day01_CrossCompilation)
+add_subdirectory(day02_gRPC)
+add_subdirectory(day03_MuduoSourceCode)
+add_subdirectory(day04_LlamaCpp)
+add_subdirectory(day05_ROS2)
+add_subdirectory(day06_Kubernetes)
+add_subdirectory(day07_CICD)
+add_subdirectory(day08_TritonServer)
+add_subdirectory(day09_CUDA)

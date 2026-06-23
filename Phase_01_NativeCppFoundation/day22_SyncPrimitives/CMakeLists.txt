@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.10)
+project(day22_SyncPrimitives LANGUAGES CXX)
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+add_executable(day22_SyncPrimitives main.cpp)
+target_link_libraries(day22_SyncPrimitives pthread)

@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.10)
+project(day08_MultiModel_Pipeline LANGUAGES CXX)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+add_executable(day08_MultiModel_Pipeline main.cpp)
+target_link_libraries(day08_MultiModel_Pipeline pthread)

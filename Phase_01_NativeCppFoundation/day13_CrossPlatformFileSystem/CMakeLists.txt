@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.10)
+project(day13_CrossPlatformFileSystem LANGUAGES CXX)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+add_executable(day13_CrossPlatformFileSystem main.cpp)

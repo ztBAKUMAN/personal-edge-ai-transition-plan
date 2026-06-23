@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.10)
+project(day06_TensorRT_INT8 LANGUAGES CXX)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+add_executable(day06_TensorRT_INT8 main.cpp)

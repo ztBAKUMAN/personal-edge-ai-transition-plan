@@ -1,84 +1,48 @@
-# ==========================================
-# 1. 编译构建目录
-# ==========================================
-# 忽略 CMake 推荐的构建目录
+# Build
 build/
-Build/
-.clangd/
-.cache/
-cmake-build-debug/
-cmake-build-release/
+cmake-build-*/
+out/
 
-# 忽略输出目录
-bin/
-lib/
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
 
-# ==========================================
-# 2. CMake 自动生成的临时文件
-# ==========================================
-CMakeFiles/
-CMakeCache.txt
-CMakeScripts/
-cmake_install.cmake
-Makefile
-install_manifest.txt
-CTestTestfile.cmake
-*.cmake
-compile_commands.json
+# OS
+.DS_Store
+Thumbs.db
 
-# ==========================================
-# 3. C++ 编译中间产物 & 最终产物
-# ==========================================
-# Object files
+# C++ compiled
 *.o
 *.obj
-
-# Static libraries
-*.a
-*.lib
-
-# Dynamic libraries
-*.so
-*.so.*
-*.dylib
-*.dll
-
-# Executables (Windows / Linux / Mac)
 *.exe
 *.out
-*.app
+*.a
+*.so
+*.dylib
+*.dll
+*.lib
 
-# ==========================================
-# 4. IDE & 编辑器配置
-# ==========================================
-# VS Code
-.vscode/
+# CMake generated
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+compile_commands.json
+CTestTestfile.cmake
+_deps/
 
-# JetBrains (CLion)
-.idea/
+# Models / data (large files)
+*.onnx
+*.engine
+*.rknn
+*.trt
+*.bin
+*.weights
 
-# Visual Studio
-.vs/
-*.user
-
-# Vim / Emacs 临时文件
-*.swp
-*~
-.#*
-
-# ==========================================
-# 5. 系统文件
-# ==========================================
-# Mac OS
-.DS_Store
-
-# Windows
-Thumbs.db
-Desktop.ini
-
-# ==========================================
-# 6. 其他
-# ==========================================
-# Core Dump 文件
-core
-core.*
+# Package
+*.deb
+*.rpm
+*.tar.gz

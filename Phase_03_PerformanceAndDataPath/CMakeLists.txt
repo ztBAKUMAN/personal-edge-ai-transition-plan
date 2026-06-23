@@ -1,0 +1,8 @@
+# Phase 03: 性能基础与数据通路优化
+add_subdirectory(day01_LockFreeQueue)
+add_subdirectory(day02_MemoryAlignment)
+add_subdirectory(day03_UnitTestAndDebug)
+add_subdirectory(day04_BenchmarkAndPerf)
+add_subdirectory(day05_FalseSharingAndCache)
+add_subdirectory(day06_SIMDAndDataLayout)
+add_subdirectory(day07_PipelineLatencyThroughput)

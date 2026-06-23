@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.10)
+project(day11_ErrorHandlingAndExpected LANGUAGES CXX)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17")
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+add_executable(day11_ErrorHandlingAndExpected main.cpp)

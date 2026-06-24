@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
 project(day02_MemoryAlignment LANGUAGES CXX)
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 add_executable(day02_MemoryAlignment main.cpp)
